@@ -461,7 +461,7 @@ const Login = ({
             color="primary"
             className={classes.submit}
           >
-            Login with SSO
+            Login with VASI ID
           </Button>
         </React.Fragment>
       );
@@ -548,7 +548,7 @@ const Login = ({
   const consoleText =
     loginStrategy.loginStrategy === loginStrategyType.serviceAccount
       ? "Operator"
-      : "Console";
+      : "VASI Data Lake";
 
   return (
     <React.Fragment>
@@ -558,9 +558,9 @@ const Login = ({
           <Grid container className={classes.loginContainer}>
             <Grid item className="consoleTextBanner">
               <div className="left-items">
-                <div className="left-logo">
+                {/* <div className="left-logo">
                   <LoginMinIOLogo />
-                </div>
+                </div> */}
                 <div className="text-line1">Welcome to</div>
                 <div className="text-line2">{consoleText}</div>
               </div>

@@ -22,7 +22,6 @@ import (
 	"path/filepath"
 	"sort"
 	"time"
-
 	"github.com/minio/cli"
 	"github.com/minio/console/pkg"
 	"github.com/minio/pkg/console"
