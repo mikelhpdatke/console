@@ -146,7 +146,7 @@ const styles = (theme: Theme) =>
         },
         "& .text-line2": {
           fontSize: 100,
-          fontWeight: 100,
+          fontWeight: 300,
           textTransform: "uppercase",
           "@media (max-width: 600px)": {
             fontSize: 35,

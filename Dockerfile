@@ -39,4 +39,4 @@ EXPOSE 9090
 COPY --from=golayer /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/
 COPY --from=golayer /go/src/github.com/mikelhpdatke/console/console .
 
-ENTRYPOINT ["/console"]
+ENTRYPOINT ["/console", "server"]
