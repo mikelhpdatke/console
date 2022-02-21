@@ -36,11 +36,11 @@ import (
 
 	"github.com/dustin/go-humanize"
 
-	"github.com/minio/console/restapi"
+	"github.com/mikelhpdatke/console/restapi"
 
-	"github.com/minio/console/operatorapi/operations/operator_api"
+	"github.com/mikelhpdatke/console/operatorapi/operations/operator_api"
 
-	"github.com/minio/console/pkg/auth/utils"
+	"github.com/mikelhpdatke/console/pkg/auth/utils"
 
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/serializer"
@@ -50,13 +50,13 @@ import (
 
 	corev1 "k8s.io/api/core/v1"
 
-	"github.com/minio/console/cluster"
+	"github.com/mikelhpdatke/console/cluster"
 	"github.com/minio/madmin-go"
 
 	"github.com/go-openapi/runtime/middleware"
 	"github.com/go-openapi/swag"
-	"github.com/minio/console/models"
-	"github.com/minio/console/operatorapi/operations"
+	"github.com/mikelhpdatke/console/models"
+	"github.com/mikelhpdatke/console/operatorapi/operations"
 	miniov2 "github.com/minio/operator/pkg/apis/minio.min.io/v2"
 	k8sErrors "k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

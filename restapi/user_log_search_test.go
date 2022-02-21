@@ -25,7 +25,7 @@ import (
 	"testing"
 
 	"github.com/go-openapi/swag"
-	"github.com/minio/console/models"
+	"github.com/mikelhpdatke/console/models"
 	asrt "github.com/stretchr/testify/assert"
 )
 

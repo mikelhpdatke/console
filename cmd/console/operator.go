@@ -27,14 +27,14 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/minio/console/restapi"
+	"github.com/mikelhpdatke/console/restapi"
 
 	"github.com/go-openapi/loads"
 	"github.com/jessevdk/go-flags"
 	"github.com/minio/cli"
-	"github.com/minio/console/operatorapi"
-	"github.com/minio/console/operatorapi/operations"
-	"github.com/minio/console/pkg/certs"
+	"github.com/mikelhpdatke/console/operatorapi"
+	"github.com/mikelhpdatke/console/operatorapi/operations"
+	"github.com/mikelhpdatke/console/pkg/certs"
 )
 
 // starts the server

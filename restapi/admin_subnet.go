@@ -25,11 +25,11 @@ import (
 	"net/url"
 
 	"github.com/go-openapi/runtime/middleware"
-	"github.com/minio/console/cluster"
-	"github.com/minio/console/models"
-	"github.com/minio/console/pkg/subnet"
-	"github.com/minio/console/restapi/operations"
-	"github.com/minio/console/restapi/operations/admin_api"
+	"github.com/mikelhpdatke/console/cluster"
+	"github.com/mikelhpdatke/console/models"
+	"github.com/mikelhpdatke/console/pkg/subnet"
+	"github.com/mikelhpdatke/console/restapi/operations"
+	"github.com/mikelhpdatke/console/restapi/operations/admin_api"
 	"github.com/minio/madmin-go"
 )
 

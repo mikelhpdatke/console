@@ -44,7 +44,7 @@ builds:
       - --tags=kqueue,operator
 
     ldflags:
-      - -s -w -X github.com/minio/console/pkg.ReleaseTag={{.Tag}} -X github.com/minio/console/pkg.CommitID={{.FullCommit}} -X github.com/minio/console/pkg.Version={{.Version}} -X github.com/minio/console/pkg.ShortCommitID={{.ShortCommit}} -X github.com/minio/console/pkg.ReleaseTime={{.Date}}
+      - -s -w -X github.com/mikelhpdatke/console/pkg.ReleaseTag={{.Tag}} -X github.com/mikelhpdatke/console/pkg.CommitID={{.FullCommit}} -X github.com/mikelhpdatke/console/pkg.Version={{.Version}} -X github.com/mikelhpdatke/console/pkg.ShortCommitID={{.ShortCommit}} -X github.com/mikelhpdatke/console/pkg.ReleaseTime={{.Date}}
 
 archives:
   -
@@ -71,7 +71,7 @@ changelog:
 nfpms:
   -
     vendor: MinIO, Inc.
-    homepage: https://github.com/minio/console
+    homepage: https://github.com/mikelhpdatke/console
     maintainer: MinIO Development <dev@min.io>
     description: MinIO Console Server
     license: GNU Affero General Public License v3.0

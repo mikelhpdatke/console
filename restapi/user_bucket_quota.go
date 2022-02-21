@@ -24,12 +24,12 @@ import (
 	"github.com/go-openapi/swag"
 
 	"github.com/go-openapi/runtime/middleware"
-	"github.com/minio/console/restapi/operations"
-	"github.com/minio/console/restapi/operations/user_api"
+	"github.com/mikelhpdatke/console/restapi/operations"
+	"github.com/mikelhpdatke/console/restapi/operations/user_api"
 
 	"github.com/minio/madmin-go"
 
-	"github.com/minio/console/models"
+	"github.com/mikelhpdatke/console/models"
 )
 
 func registerBucketQuotaHandlers(api *operations.ConsoleAPI) {

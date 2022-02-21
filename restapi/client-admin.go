@@ -24,8 +24,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/minio/console/models"
-	"github.com/minio/console/pkg"
+	"github.com/mikelhpdatke/console/models"
+	"github.com/mikelhpdatke/console/pkg"
 	"github.com/minio/madmin-go"
 	mcCmd "github.com/minio/mc/cmd"
 	"github.com/minio/mc/pkg/probe"

@@ -24,10 +24,10 @@ import (
 	miniov1 "github.com/minio/operator/pkg/apis/minio.min.io/v1"
 
 	"github.com/go-openapi/runtime/middleware"
-	"github.com/minio/console/cluster"
-	"github.com/minio/console/models"
-	"github.com/minio/console/operatorapi/operations"
-	"github.com/minio/console/operatorapi/operations/operator_api"
+	"github.com/mikelhpdatke/console/cluster"
+	"github.com/mikelhpdatke/console/models"
+	"github.com/mikelhpdatke/console/operatorapi/operations"
+	"github.com/mikelhpdatke/console/operatorapi/operations/operator_api"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

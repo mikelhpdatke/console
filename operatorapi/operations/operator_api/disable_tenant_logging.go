@@ -27,7 +27,7 @@ import (
 
 	"github.com/go-openapi/runtime/middleware"
 
-	"github.com/minio/console/models"
+	"github.com/mikelhpdatke/console/models"
 )
 
 // DisableTenantLoggingHandlerFunc turns a function with the right signature into a disable tenant logging handler

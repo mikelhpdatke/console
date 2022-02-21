@@ -22,7 +22,7 @@ import (
 	"strings"
 
 	"github.com/go-openapi/swag"
-	"github.com/minio/console/models"
+	"github.com/mikelhpdatke/console/models"
 	"github.com/minio/madmin-go"
 	k8sErrors "k8s.io/apimachinery/pkg/api/errors"
 )

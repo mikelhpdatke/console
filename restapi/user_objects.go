@@ -36,9 +36,9 @@ import (
 
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/runtime/middleware"
-	"github.com/minio/console/models"
-	"github.com/minio/console/restapi/operations"
-	"github.com/minio/console/restapi/operations/user_api"
+	"github.com/mikelhpdatke/console/models"
+	"github.com/mikelhpdatke/console/restapi/operations"
+	"github.com/mikelhpdatke/console/restapi/operations/user_api"
 	mc "github.com/minio/mc/cmd"
 	"github.com/minio/mc/pkg/probe"
 	"github.com/minio/minio-go/v7"

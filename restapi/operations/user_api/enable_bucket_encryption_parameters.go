@@ -33,7 +33,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/validate"
 
-	"github.com/minio/console/models"
+	"github.com/mikelhpdatke/console/models"
 )
 
 // NewEnableBucketEncryptionParams creates a new EnableBucketEncryptionParams object

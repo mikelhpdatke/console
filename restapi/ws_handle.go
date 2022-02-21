@@ -26,8 +26,8 @@ import (
 
 	"github.com/go-openapi/errors"
 	"github.com/gorilla/websocket"
-	"github.com/minio/console/models"
-	"github.com/minio/console/pkg/auth"
+	"github.com/mikelhpdatke/console/models"
+	"github.com/mikelhpdatke/console/pkg/auth"
 	"github.com/minio/madmin-go"
 )
 

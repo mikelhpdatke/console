@@ -28,9 +28,9 @@ import (
 
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/runtime/middleware"
-	"github.com/minio/console/models"
-	"github.com/minio/console/restapi/operations"
-	"github.com/minio/console/restapi/operations/admin_api"
+	"github.com/mikelhpdatke/console/models"
+	"github.com/mikelhpdatke/console/restapi/operations"
+	"github.com/mikelhpdatke/console/restapi/operations/admin_api"
 	"github.com/minio/madmin-go"
 	"github.com/secure-io/sio-go"
 )

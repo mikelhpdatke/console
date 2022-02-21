@@ -27,7 +27,7 @@ import (
 	"time"
 
 	"github.com/go-openapi/swag"
-	"github.com/minio/console/models"
+	"github.com/mikelhpdatke/console/models"
 	mc "github.com/minio/mc/cmd"
 	"github.com/minio/mc/pkg/probe"
 	"github.com/minio/minio-go/v7"

@@ -31,7 +31,7 @@ import (
 	"github.com/blang/semver/v4"
 	"github.com/cheggaaa/pb/v3"
 	"github.com/minio/cli"
-	"github.com/minio/console/pkg"
+	"github.com/mikelhpdatke/console/pkg"
 	"github.com/minio/selfupdate"
 )
 
@@ -118,7 +118,7 @@ func updateInplace(ctx *cli.Context) error {
 		return nil
 	}
 
-	consoleBin := fmt.Sprintf("https://github.com/minio/console/releases/download/%s/console-%s-%s", rel, runtime.GOOS, runtime.GOARCH)
+	consoleBin := fmt.Sprintf("https://github.com/mikelhpdatke/console/releases/download/%s/console-%s-%s", rel, runtime.GOOS, runtime.GOARCH)
 	reader, length, err := getUpdateReaderFromURL(consoleBin, transport)
 	if err != nil {
 		return fmt.Errorf("unable to fetch binary from %s: %w", consoleBin, err)
