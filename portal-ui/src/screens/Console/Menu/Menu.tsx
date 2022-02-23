@@ -107,7 +107,8 @@ const Menu = ({
       userLoggedIn(false);
       localStorage.setItem("userLoggedIn", "");
       resetSession();
-      history.push("/login");
+      window.location.assign("https://sso.aisenote.com/auth/realms/master/protocol/openid-connect/logout?redirect_uri=https://data.aisenote.com/login")
+      // history.push("/login");
     };
     api
       .invoke("POST", `/api/v1/logout`)
